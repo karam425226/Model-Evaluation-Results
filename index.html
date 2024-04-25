@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Model Evaluation Results</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f7f7f7;
+            color: #333;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #000000;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        th,
+        td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #000000;
+            color: #fff;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        tr:hover {
+            background-color: #ddd;
+        }
+
+        p {
+            text-align: center;
+            color: #666;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Model Evaluation Results</h1>
+    <table>
+        <tr>
+            <th>Model</th>
+            <th>Accuracy</th>
+            <th>Precision</th>
+            <th>Recall</th>
+            <th>F1 Score</th>
+        </tr>
+        <tr>
+            <td>Logistic Regression</td>
+            <td>0.807859</td>
+            <td>0.803824</td>
+            <td>0.807859</td>
+            <td>0.801375</td>
+        </tr>
+        <tr>
+            <td>Decision Tree</td>
+            <td>0.809296</td>
+            <td>0.807404</td>
+            <td>0.809296</td>
+            <td>0.807949</td>
+        </tr>
+        <tr>
+            <td>Naive Bayes</td>
+            <td>0.378744</td>
+            <td>0.766490</td>
+            <td>0.378744</td>
+            <td>0.349192</td>
+        </tr>
+    </table>
+    <p>Note: The metrics represent the performance of each model in terms of accuracy, precision, recall, and F1 score.
+    </p>
+</body>
+
+</html>
